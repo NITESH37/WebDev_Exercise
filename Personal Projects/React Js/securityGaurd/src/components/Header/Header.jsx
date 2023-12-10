@@ -10,13 +10,6 @@ export default function Header() {
     setOpen(false);
   };
 
-  const listItems = [
-    { title: "Home", link: "/" },
-    { title: "Careers", link: "/careers" },
-    { title: "Services", link: "/services" },
-    { title: " About", link: "/about" },
-    { title: " Contact", link: "/contacts" },
-  ];
 
   return (
     <header className="shadow sticky z-50 top-0">
