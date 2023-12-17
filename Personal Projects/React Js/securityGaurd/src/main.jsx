@@ -7,11 +7,13 @@ import Contact from './components/Contact/Contact.jsx'
 import About from './components/About/About.jsx'
 import Services from './components/Serrvices/Services.jsx'
 import Careers from './components/Careers/Careers.jsx'
+import { Home } from './components/Home/Home.jsx'
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={ <App />} >
+      <Route path='/' element={<Home />} />
     <Route path='careers' element={ <Careers />} />
     <Route path='contacts' element= { <Contact /> } />
     <Route path='about' element={ <About />} />
