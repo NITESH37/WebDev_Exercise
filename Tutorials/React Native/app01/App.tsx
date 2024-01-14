@@ -1,19 +1,18 @@
 
 
-import {
-  View,
-  SafeAreaView,
-  Text
-} from 'react-native'
+// import {
+//   View,
+//   SafeAreaView,
+//   Text
+// } from 'react-native'
+// import AppPro from './AppPro'
 
-function App(){
-  return(
-    <SafeAreaView>
-    <View>
-      <Text>Hey World!</Text>
-    </View>
-  </SafeAreaView>
-  )
-}
+// function App(){
+//   return(
+//     <SafeAreaView>
+//     <AppPro />
+//   </SafeAreaView>
+//   )
+// }
 
-export default App
+// export default App
