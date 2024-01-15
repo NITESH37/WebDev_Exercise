@@ -1,18 +1,22 @@
 
 
-// import {
-//   View,
-//   SafeAreaView,
-//   Text
-// } from 'react-native'
-// import AppPro from './AppPro'
+import {
+  View,
+  SafeAreaView,
+  Text,
+  ScrollView
+} from 'react-native'
+import FlatCards from './components/FlatCards'
 
-// function App(){
-//   return(
-//     <SafeAreaView>
-//     <AppPro />
-//   </SafeAreaView>
-//   )
-// }
 
-// export default App
+function App(){
+  return(
+    <SafeAreaView>
+    <ScrollView>
+        <FlatCards />
+    </ScrollView>
+  </SafeAreaView>
+  )
+}
+
+export default App
