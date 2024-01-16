@@ -7,6 +7,7 @@ import {
   ScrollView
 } from 'react-native'
 import FlatCards from './components/FlatCards'
+import ElevatedCards from './components/ElevatedCards'
 
 
 function App(){
@@ -14,6 +15,7 @@ function App(){
     <SafeAreaView>
     <ScrollView>
         <FlatCards />
+        <ElevatedCards />
     </ScrollView>
   </SafeAreaView>
   )

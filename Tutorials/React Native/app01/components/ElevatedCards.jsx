@@ -1,10 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const FlatCards = () => {
+const ElevatedCards = () => {
   return (
-    <View >
-      <Text style={styles.headingText}>FlatCards</Text>
+    <View>
+      <Text style={styles.headingText}>ElevatedCards</Text>
+      <ScrollView horizontal={true}>
       <View style={styles.container}>
         <View style={[styles.card, styles.cardOne]}>
             <Text>Red</Text>
@@ -21,12 +22,16 @@ const FlatCards = () => {
         <View style={[styles.card, styles.cardFive]}>
             <Text>Red</Text>
         </View>
+        <View style={[styles.card, styles.cardFive]}>
+            <Text>Red</Text>
+        </View>
       </View>
+      </ScrollView>
     </View>
   )
 }
 
-export default FlatCards
+export default ElevatedCards
 
 const styles = StyleSheet.create({
     headingText: {
