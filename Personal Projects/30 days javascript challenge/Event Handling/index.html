@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #hover {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(194, 75, 75);
+      }
+      #hover1 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(51, 165, 177);
+      }
+    </style>
+  </head>
+  <body>
+    <p id="text">Original text</p>
+    <button id="btn">click</button>
+    <img id="img" src="text.png" alt="fhdj" />
+    <p id="hover">hover here</p>
+    <p id="hover1">hover here</p>
+    <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        document.getElementById("text").textContent = "Changed text";
+      });
+      document.getElementById("img").addEventListener("dblclick", function () {
+        this.style.display = this.style.display === "none" ? "block" : "none";
+      });
+
+      document
+        .getElementById("hover")
+        .addEventListener("mouseover", function () {
+          this.style.backgroundColor = "yellow";
+        });
+      document
+        .getElementById("hover1")
+        .addEventListener("mouseout", function () {
+          this.style.backgroundColor = "white";
+        });
+    </script>
+  </body>
+</html>
