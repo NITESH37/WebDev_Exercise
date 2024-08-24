@@ -13,7 +13,7 @@ void main()
     total = sub1 + sub2 + sub3;
     per = (total * 100) / 300;
     avg = total / 3;
-    printf("Total Marks Obtained = %d", total);
+    printf("Total Marks Obtained = %d \n", total);
     printf("Average of marks = %.2f \n", avg);
     printf("Percantage of marks = %.2f", per);
 }
