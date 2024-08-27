@@ -9,11 +9,11 @@ void main()
         /* code */
         if (a % 7 != 0)
         {
-            printf("%d is divisible by 3", a);
+            printf("%d is divisible by 3 but not  divisible by 7", a);
         }
         else
         {
-            printf("%d is not divisble by 3", a);
+            printf("%d is divisible by 3 but also  divisble by 7", a);
         }
     }
     else
