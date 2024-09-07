@@ -1,4 +1,4 @@
-// to find mean
+// to find mean   which is only apply for freqency;
 #include <stdio.h>
 void main()
 {
