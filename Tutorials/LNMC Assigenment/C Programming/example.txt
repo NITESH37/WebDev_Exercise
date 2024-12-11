@@ -1,0 +1,3 @@
+Hello, World!
+This is a file handling example in C.
+Goodbye!

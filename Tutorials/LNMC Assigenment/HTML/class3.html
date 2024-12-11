@@ -1,0 +1,31 @@
+<html>
+  <script language="javascript">
+    function fun1() {
+      var b, d, h, p, n, n1;
+      b = f1.t2.value;
+      d = (b * 110) / 100;
+      h = (b * 10) / 100;
+      p = (b * 9) / 100;
+      n = b + d + h - p;
+      //   n = n1 - p;
+      f1.t3.value = d;
+      f1.t4.value = h;
+      f1.t5.value = p;
+      f1.t6.value = n;
+    }
+  </script>
+  <body>
+    <form name="f1">
+      EmpCode:
+      <input type="text" name="t1" /> Basic:
+      <input type="text" name="t2" />
+      <input type="button" value="OK " onclick="fun1()" /> DA:
+      <input type="text" name="t3" /> HRA:
+
+      <input type="text" name="t4" /> PE:
+      <input ttype="text" name="t5" /> NetSalary:
+      <input type="text" name="t6" />
+    </form>
+     
+  </body>
+</html>
